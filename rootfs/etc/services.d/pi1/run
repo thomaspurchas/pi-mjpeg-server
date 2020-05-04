@@ -1,2 +1,2 @@
 #!/usr/bin/with-contenv sh
-/go/bin/mjpeg-server -a :9000 -b FRAME -p "/stream.mjpg" -- curl -sN $PI1_URL
+/go/bin/mjpeg-server -a :9000 -b FRAME -p "/stream.mjpg" -- curl -sS -N $PI1_URL
