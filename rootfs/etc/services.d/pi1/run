@@ -1,0 +1,2 @@
+#!/usr/bin/with-contenv sh
+/go/bin/mjpeg-server -a :9000 -b FRAME -- curl -N $PI1_URL
