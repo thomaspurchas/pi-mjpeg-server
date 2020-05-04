@@ -41,3 +41,5 @@ ENTRYPOINT [ "/init" ]
 COPY --from=builder /go/bin/mjpeg-server /go/bin/mjpeg-server
 
 RUN apk add --no-cache curl 
+
+EXPOSE 9000 9001
